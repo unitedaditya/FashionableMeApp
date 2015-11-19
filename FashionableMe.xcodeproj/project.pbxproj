@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4814992A1BFC26740006BC61 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481499291BFC26740006BC61 /* MainScreenViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		48149CA61BFC82BE0006BC61 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48149CA51BFC82BE0006BC61 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		48149CA91BFC83840006BC61 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48149CA71BFC83840006BC61 /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		48149CAA1BFC83840006BC61 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48149CA81BFC83840006BC61 /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		48149D061BFCB26F0006BC61 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CE81BFCB26F0006BC61 /* AsyncButton.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D071BFCB26F0006BC61 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CE91BFCB26F0006BC61 /* AsyncImageView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D081BFCB26F0006BC61 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CEA1BFCB26F0006BC61 /* AutoTextView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D091BFCB26F0006BC61 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CEB1BFCB26F0006BC61 /* BlurView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D0A1BFCB26F0006BC61 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CEC1BFCB26F0006BC61 /* DesignableButton.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D0B1BFCB26F0006BC61 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CED1BFCB26F0006BC61 /* DesignableImageView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D0C1BFCB26F0006BC61 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CEE1BFCB26F0006BC61 /* DesignableLabel.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D0D1BFCB26F0006BC61 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CEF1BFCB26F0006BC61 /* DesignableTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D0E1BFCB26F0006BC61 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CF01BFCB26F0006BC61 /* DesignableTextField.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D0F1BFCB26F0006BC61 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CF11BFCB26F0006BC61 /* DesignableTextView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D101BFCB26F0006BC61 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CF21BFCB26F0006BC61 /* DesignableView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D111BFCB26F0006BC61 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CF31BFCB26F0006BC61 /* ImageLoader.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D121BFCB26F0006BC61 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48149CF41BFCB26F0006BC61 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		48149D131BFCB26F0006BC61 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CF51BFCB26F0006BC61 /* KeyboardLayoutConstraint.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D141BFCB26F0006BC61 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CF61BFCB26F0006BC61 /* LoadingView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D151BFCB26F0006BC61 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48149CF71BFCB26F0006BC61 /* LoadingView.xib */; settings = {ASSET_TAGS = (); }; };
+		48149D161BFCB26F0006BC61 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CF81BFCB26F0006BC61 /* Misc.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D171BFCB26F0006BC61 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CF91BFCB26F0006BC61 /* SoundPlayer.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D181BFCB26F0006BC61 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CFB1BFCB26F0006BC61 /* Spring.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D191BFCB26F0006BC61 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CFC1BFCB26F0006BC61 /* SpringAnimation.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D1A1BFCB26F0006BC61 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CFD1BFCB26F0006BC61 /* SpringButton.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D1B1BFCB26F0006BC61 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CFE1BFCB26F0006BC61 /* SpringImageView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D1C1BFCB26F0006BC61 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149CFF1BFCB26F0006BC61 /* SpringLabel.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D1D1BFCB26F0006BC61 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149D001BFCB26F0006BC61 /* SpringTextField.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D1E1BFCB26F0006BC61 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149D011BFCB26F0006BC61 /* SpringTextView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D1F1BFCB26F0006BC61 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149D021BFCB26F0006BC61 /* SpringView.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D201BFCB26F0006BC61 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149D031BFCB26F0006BC61 /* TransitionManager.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D211BFCB26F0006BC61 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149D041BFCB26F0006BC61 /* TransitionZoom.swift */; settings = {ASSET_TAGS = (); }; };
+		48149D221BFCB26F0006BC61 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48149D051BFCB26F0006BC61 /* UnwindSegue.swift */; settings = {ASSET_TAGS = (); }; };
 		48A9A6291BFB5E35006A1B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9A6281BFB5E35006A1B26 /* AppDelegate.swift */; };
 		48A9A62B1BFB5E35006A1B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9A62A1BFB5E35006A1B26 /* ViewController.swift */; };
 		48A9A62E1BFB5E35006A1B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A9A62C1BFB5E35006A1B26 /* Main.storyboard */; };
@@ -14,6 +47,8 @@
 		48A9A6331BFB5E35006A1B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A9A6311BFB5E35006A1B26 /* LaunchScreen.storyboard */; };
 		48A9A63E1BFB5E35006A1B26 /* FashionableMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9A63D1BFB5E35006A1B26 /* FashionableMeTests.swift */; };
 		48A9A6491BFB5E35006A1B26 /* FashionableMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9A6481BFB5E35006A1B26 /* FashionableMeUITests.swift */; };
+		48A9A65C1BFB659F006A1B26 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9A65B1BFB659F006A1B26 /* HomePageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		48A9A6601BFB8751006A1B26 /* TorsoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A9A65F1BFB8751006A1B26 /* TorsoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +69,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		481499291BFC26740006BC61 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		48149CA51BFC82BE0006BC61 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Downloads/FacebookSdk/Bolts.framework; sourceTree = "<group>"; };
+		48149CA71BFC83840006BC61 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Downloads/FacebookSdk/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		48149CA81BFC83840006BC61 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Downloads/FacebookSdk/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		48149CE81BFCB26F0006BC61 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		48149CE91BFCB26F0006BC61 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		48149CEA1BFCB26F0006BC61 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		48149CEB1BFCB26F0006BC61 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		48149CEC1BFCB26F0006BC61 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		48149CED1BFCB26F0006BC61 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		48149CEE1BFCB26F0006BC61 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		48149CEF1BFCB26F0006BC61 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		48149CF01BFCB26F0006BC61 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		48149CF11BFCB26F0006BC61 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		48149CF21BFCB26F0006BC61 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		48149CF31BFCB26F0006BC61 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		48149CF41BFCB26F0006BC61 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48149CF51BFCB26F0006BC61 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		48149CF61BFCB26F0006BC61 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		48149CF71BFCB26F0006BC61 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		48149CF81BFCB26F0006BC61 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		48149CF91BFCB26F0006BC61 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		48149CFA1BFCB26F0006BC61 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		48149CFB1BFCB26F0006BC61 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		48149CFC1BFCB26F0006BC61 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		48149CFD1BFCB26F0006BC61 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		48149CFE1BFCB26F0006BC61 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		48149CFF1BFCB26F0006BC61 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		48149D001BFCB26F0006BC61 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		48149D011BFCB26F0006BC61 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		48149D021BFCB26F0006BC61 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		48149D031BFCB26F0006BC61 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		48149D041BFCB26F0006BC61 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		48149D051BFCB26F0006BC61 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		48A9A6251BFB5E35006A1B26 /* FashionableMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionableMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A9A6281BFB5E35006A1B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48A9A62A1BFB5E35006A1B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +116,8 @@
 		48A9A6441BFB5E35006A1B26 /* FashionableMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionableMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A9A6481BFB5E35006A1B26 /* FashionableMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionableMeUITests.swift; sourceTree = "<group>"; };
 		48A9A64A1BFB5E35006A1B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A9A65B1BFB659F006A1B26 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		48A9A65F1BFB8751006A1B26 /* TorsoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TorsoViewController.swift; path = ../TorsoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +125,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48149CA61BFC82BE0006BC61 /* Bolts.framework in Frameworks */,
+				48149CA91BFC83840006BC61 /* FBSDKCoreKit.framework in Frameworks */,
+				48149CAA1BFC83840006BC61 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +148,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48149CE71BFCB26F0006BC61 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				48149CE81BFCB26F0006BC61 /* AsyncButton.swift */,
+				48149CE91BFCB26F0006BC61 /* AsyncImageView.swift */,
+				48149CEA1BFCB26F0006BC61 /* AutoTextView.swift */,
+				48149CEB1BFCB26F0006BC61 /* BlurView.swift */,
+				48149CEC1BFCB26F0006BC61 /* DesignableButton.swift */,
+				48149CED1BFCB26F0006BC61 /* DesignableImageView.swift */,
+				48149CEE1BFCB26F0006BC61 /* DesignableLabel.swift */,
+				48149CEF1BFCB26F0006BC61 /* DesignableTabBarController.swift */,
+				48149CF01BFCB26F0006BC61 /* DesignableTextField.swift */,
+				48149CF11BFCB26F0006BC61 /* DesignableTextView.swift */,
+				48149CF21BFCB26F0006BC61 /* DesignableView.swift */,
+				48149CF31BFCB26F0006BC61 /* ImageLoader.swift */,
+				48149CF41BFCB26F0006BC61 /* Info.plist */,
+				48149CF51BFCB26F0006BC61 /* KeyboardLayoutConstraint.swift */,
+				48149CF61BFCB26F0006BC61 /* LoadingView.swift */,
+				48149CF71BFCB26F0006BC61 /* LoadingView.xib */,
+				48149CF81BFCB26F0006BC61 /* Misc.swift */,
+				48149CF91BFCB26F0006BC61 /* SoundPlayer.swift */,
+				48149CFA1BFCB26F0006BC61 /* Spring.h */,
+				48149CFB1BFCB26F0006BC61 /* Spring.swift */,
+				48149CFC1BFCB26F0006BC61 /* SpringAnimation.swift */,
+				48149CFD1BFCB26F0006BC61 /* SpringButton.swift */,
+				48149CFE1BFCB26F0006BC61 /* SpringImageView.swift */,
+				48149CFF1BFCB26F0006BC61 /* SpringLabel.swift */,
+				48149D001BFCB26F0006BC61 /* SpringTextField.swift */,
+				48149D011BFCB26F0006BC61 /* SpringTextView.swift */,
+				48149D021BFCB26F0006BC61 /* SpringView.swift */,
+				48149D031BFCB26F0006BC61 /* TransitionManager.swift */,
+				48149D041BFCB26F0006BC61 /* TransitionZoom.swift */,
+				48149D051BFCB26F0006BC61 /* UnwindSegue.swift */,
+			);
+			name = Spring;
+			path = "../../../Downloads/Spring-master/Spring";
+			sourceTree = "<group>";
+		};
 		48A9A61C1BFB5E34006A1B26 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +209,12 @@
 		48A9A6271BFB5E35006A1B26 /* FashionableMe */ = {
 			isa = PBXGroup;
 			children = (
+				48A9A65A1BFB5FAC006A1B26 /* Frameworks */,
 				48A9A6281BFB5E35006A1B26 /* AppDelegate.swift */,
 				48A9A62A1BFB5E35006A1B26 /* ViewController.swift */,
+				48A9A65B1BFB659F006A1B26 /* HomePageViewController.swift */,
+				48A9A65F1BFB8751006A1B26 /* TorsoViewController.swift */,
+				481499291BFC26740006BC61 /* MainScreenViewController.swift */,
 				48A9A62C1BFB5E35006A1B26 /* Main.storyboard */,
 				48A9A62F1BFB5E35006A1B26 /* Assets.xcassets */,
 				48A9A6311BFB5E35006A1B26 /* LaunchScreen.storyboard */,
@@ -123,6 +239,17 @@
 				48A9A64A1BFB5E35006A1B26 /* Info.plist */,
 			);
 			path = FashionableMeUITests;
+			sourceTree = "<group>";
+		};
+		48A9A65A1BFB5FAC006A1B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48149CE71BFCB26F0006BC61 /* Spring */,
+				48149CA71BFC83840006BC61 /* FBSDKCoreKit.framework */,
+				48149CA81BFC83840006BC61 /* FBSDKLoginKit.framework */,
+				48149CA51BFC82BE0006BC61 /* Bolts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,9 +354,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48149D121BFCB26F0006BC61 /* Info.plist in Resources */,
 				48A9A6331BFB5E35006A1B26 /* LaunchScreen.storyboard in Resources */,
 				48A9A6301BFB5E35006A1B26 /* Assets.xcassets in Resources */,
 				48A9A62E1BFB5E35006A1B26 /* Main.storyboard in Resources */,
+				48149D151BFCB26F0006BC61 /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +383,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4814992A1BFC26740006BC61 /* MainScreenViewController.swift in Sources */,
+				48149D0F1BFCB26F0006BC61 /* DesignableTextView.swift in Sources */,
+				48149D171BFCB26F0006BC61 /* SoundPlayer.swift in Sources */,
+				48149D191BFCB26F0006BC61 /* SpringAnimation.swift in Sources */,
+				48149D061BFCB26F0006BC61 /* AsyncButton.swift in Sources */,
+				48149D1F1BFCB26F0006BC61 /* SpringView.swift in Sources */,
+				48149D131BFCB26F0006BC61 /* KeyboardLayoutConstraint.swift in Sources */,
+				48149D201BFCB26F0006BC61 /* TransitionManager.swift in Sources */,
 				48A9A62B1BFB5E35006A1B26 /* ViewController.swift in Sources */,
+				48149D081BFCB26F0006BC61 /* AutoTextView.swift in Sources */,
+				48149D0C1BFCB26F0006BC61 /* DesignableLabel.swift in Sources */,
+				48149D1B1BFCB26F0006BC61 /* SpringImageView.swift in Sources */,
+				48149D0B1BFCB26F0006BC61 /* DesignableImageView.swift in Sources */,
+				48149D0D1BFCB26F0006BC61 /* DesignableTabBarController.swift in Sources */,
+				48149D0E1BFCB26F0006BC61 /* DesignableTextField.swift in Sources */,
+				48149D0A1BFCB26F0006BC61 /* DesignableButton.swift in Sources */,
+				48149D1A1BFCB26F0006BC61 /* SpringButton.swift in Sources */,
+				48149D1C1BFCB26F0006BC61 /* SpringLabel.swift in Sources */,
+				48149D221BFCB26F0006BC61 /* UnwindSegue.swift in Sources */,
+				48149D071BFCB26F0006BC61 /* AsyncImageView.swift in Sources */,
 				48A9A6291BFB5E35006A1B26 /* AppDelegate.swift in Sources */,
+				48149D141BFCB26F0006BC61 /* LoadingView.swift in Sources */,
+				48149D181BFCB26F0006BC61 /* Spring.swift in Sources */,
+				48149D1D1BFCB26F0006BC61 /* SpringTextField.swift in Sources */,
+				48A9A6601BFB8751006A1B26 /* TorsoViewController.swift in Sources */,
+				48149D091BFCB26F0006BC61 /* BlurView.swift in Sources */,
+				48149D111BFCB26F0006BC61 /* ImageLoader.swift in Sources */,
+				48149D1E1BFCB26F0006BC61 /* SpringTextView.swift in Sources */,
+				48149D161BFCB26F0006BC61 /* Misc.swift in Sources */,
+				48A9A65C1BFB659F006A1B26 /* HomePageViewController.swift in Sources */,
+				48149D101BFCB26F0006BC61 /* DesignableView.swift in Sources */,
+				48149D211BFCB26F0006BC61 /* TransitionZoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +554,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Aditya/Downloads/FacebookSdk,
+					"$(PROJECT_DIR)/FashionableMe",
+				);
 				INFOPLIST_FILE = FashionableMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adi.FashionableMe;
@@ -406,6 +570,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Aditya/Downloads/FacebookSdk,
+					"$(PROJECT_DIR)/FashionableMe",
+				);
 				INFOPLIST_FILE = FashionableMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adi.FashionableMe;
@@ -480,6 +649,7 @@
 				48A9A64F1BFB5E35006A1B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48A9A6501BFB5E35006A1B26 /* Build configuration list for PBXNativeTarget "FashionableMeTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +658,7 @@
 				48A9A6521BFB5E35006A1B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48A9A6531BFB5E35006A1B26 /* Build configuration list for PBXNativeTarget "FashionableMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +667,7 @@
 				48A9A6551BFB5E35006A1B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
